@@ -1,0 +1,306 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.7) url('../img/background.jpg') ;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    /* height: 23vh; */
+    position: fixed;
+    top: 0;
+
+    z-index: 100; /* because navbar show on uper of any element*/
+
+}
+
+.barger{
+
+    visibility: hidden;
+ 
+}
+.barger div{
+    width: 20px;
+    height: 3px;
+    margin: 3px;
+    background-color: white;
+}
+
+.background{
+
+    background:rgba(0,0,0, 0.7) url('../img/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+#navbar .logo {
+    padding: 9px;
+}
+
+#navbar .logo img {
+    height: 41px;
+    border-radius: 22px;
+}
+
+.leftnav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 50%;
+
+
+
+}
+
+.leftnav ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.leftnav ul li {
+
+    list-style: none;
+
+
+}
+
+.menu .items a {
+
+    text-decoration: none;
+    padding: 0 20px;
+    color: white
+}
+
+.menu .items a:hover {
+
+    cursor: pointer;
+    color: rgb(180, 179, 179);
+}
+
+.rightnav {
+
+    /* background-color: rgb(145, 73, 212); */
+
+    width: 50%;
+    text-align: right;
+    margin-right: 60px;
+}
+
+
+
+.rightnav #nav-input {
+
+    width: 160px;
+    margin: 0px 8px 0 0;
+    padding: 2.5px 9px;
+    background: transparent;
+    /* background-color: rgb(197, 197, 197); */
+    border-radius: 8.5px;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+
+}
+
+.rightnav .btn {
+    width: 55px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    padding: 4px;
+    
+
+}
+
+.rightnav .btn:hover {
+   cursor: pointer;
+   color: rgb(180, 179, 179);
+   
+}
+
+/* home section styling */
+
+.home-section{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 460px;
+    width: 100%;
+    color: white;
+    
+   
+
+
+}
+
+.home{
+    /* border: 1px solid red;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+    width: 70%;
+    
+
+}
+
+.img-div img{
+
+   height: 200px;
+    border-radius: 100px;
+    filter: brightness(80%);
+    /* border: 1px solid rgb(232, 231, 231)e; */
+    box-shadow: 0px 0px 4px 4px rgb(213, 212, 212);
+    transform: rotate(6deg);
+
+
+}
+.big-text{
+  
+    font-size: 28px;
+
+}
+
+.small-text{
+
+
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.h-btn{
+
+    width: 100px;
+    padding: 4px;
+    border-radius: 7px;
+    background: none;
+    border: 1px solid white;
+    color: rgb(230, 230, 230);
+    margin: 10px 12px 0 0;
+    cursor: pointer;
+
+}
+
+.h-btn:hover{
+
+    color: rgb(180, 179, 179);
+    
+    
+    
+}
+
+/* styling content section */
+
+.images img{
+
+    height: 140px;
+
+    border-radius: 30px;
+
+}
+
+
+.content-section{
+    width: 100%;
+    margin-top: 45px;
+}
+
+.content {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 74%;
+margin: 30px auto;
+
+
+
+}
+.content-text{
+    margin-right: 50px;
+}
+
+#content-box2 {
+    /* border: 1px solid red; */
+    flex-direction: row-reverse;
+    
+}
+
+#content-text2 {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+/* contact us section styling */
+    
+
+.contact-section{
+
+    width: 100%;
+    position: relative;
+    height: 400px;
+    background-color: rgb(231 231 231);
+    padding-top: 10px;
+}
+
+.contact-form{
+display: flex;
+flex-direction: column;
+margin:  13px auto;
+ width: 80%;
+ /* border: 1px solid black; */
+
+}
+
+.contact-h{
+
+    font-size: 25px;
+    text-align: center;
+    margin: 4px 0 20px 0;
+    
+}
+
+input , textarea, .form-button{
+    padding: 8px 15px;
+    border-radius: 6px;
+    margin: 5px 0px;
+    border: 1px solid gray;
+
+}
+#submit-btn{
+
+    width: 80px;
+    padding: 3px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+/* footer styling */
+
+.footer-section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40px;
+    width: 100%;
+    background: rgba(0,0,0, 0.7);
+}
